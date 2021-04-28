@@ -12,6 +12,7 @@
     "axios": "^0.19.2",
     "babel-plugin-import": "^1.13.0",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
     "node-sass": "^4.14.0",
@@ -23,7 +24,8 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "react-start": "react-app-rewired start",
+    "start": "node server.js",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
