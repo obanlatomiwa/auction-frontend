@@ -1,4 +1,4 @@
-## The Auction House
+## The Auction App
 
 ## Cloning and installing
 Clone this repository.
